@@ -1,7 +1,7 @@
 .catalog__item {
   width: 200px;
   height: 403px;
-  padding: 30px 14px 13px;
+  padding: 13px 14px 10px;
   margin-bottom: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,6 +13,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); }
 
 .card__img-container {
+  padding: 8px 0;
   border: 3px solid #fff;
   border-radius: 5px;
   -webkit-transition-duration: 1s;
