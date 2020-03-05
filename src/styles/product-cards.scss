@@ -18,12 +18,7 @@
 }
 
 .card {
-  &__photo {
-    display: block;
-    width: 160px;
-    height: 134px;
-    margin: auto;
-    box-sizing: border-box;
+  &__img-container {
     border: 3px solid #fff;
     border-radius: 5px;
     transition-duration: 1s;
@@ -32,6 +27,13 @@
       transform: scale(1.2);
       border-color: #f3f3f3;
     }
+  }
+
+  &__photo {
+    display: block;
+    width: 160px;
+    height: 134px;
+    margin: auto;
   }
 
   &__title {
