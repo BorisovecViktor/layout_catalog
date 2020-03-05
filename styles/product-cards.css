@@ -16,17 +16,7 @@
   display: block;
   width: 160px;
   height: 134px;
-  margin: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 3px solid #fff;
-  border-radius: 5px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s; }
-  .card__photo:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    border-color: #f3f3f3; }
+  margin: auto; }
 
 .card__title {
   margin: 45px 0 0;
@@ -65,14 +55,14 @@
   font-size: 16px;
   font-weight: bold; }
 
-.card__button {
+.button-buy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px; }
-
-.card__link {
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
   width: 100%;
   line-height: 38px;
   font-size: 14px;
@@ -83,10 +73,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid #00acdc;
-  border-radius: 5px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s; }
-  .card__link:hover {
+  border-radius: 5px; }
+  .button-buy:hover {
     background: #fff;
     color: #00acdc; }
 
